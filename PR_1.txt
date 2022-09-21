@@ -1,0 +1,21 @@
+package com.part_4;
+
+public class PR_1 {
+    //ID : 21CE119
+//Name : Hinal Sanghvi
+//Aim : WAP to show the try - catch block to catch the different types of exception.
+
+        public static void main(String[] args)
+        {
+            try
+            {
+                int divideByZero = 5/0;
+            }
+            catch (ArithmeticException e)
+            {
+                System.out.println("Can't divide by zero ");
+            }
+            System.out.println("21ce119_Hinal");
+        }
+
+}
